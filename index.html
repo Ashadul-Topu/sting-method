@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string methods</title>
+</head>
+<body>
+    <ul>
+        <h4>5. string methods</h4>
+        <li>5.1 string.startsWith()</li>
+        <li>5.2 string.endWith()</li>
+        <li>5.3 string.includes</li>
+    </ul>
+
+    <script>
+        // string methods
+        //string.startsWith()
+        //string.endsWith()
+        //string.includes
+        // string method is case sensitive, we can also use index number, string method returns true or false value.
+        // string method catch extra space, if you give extra space it will show false
+        const message = ' Today is friday';
+        // startsWith()
+        const startMethod = message.startsWith('Today')
+        console.log(startMethod);
+
+        //endsWith()
+        const endMethod = message.endsWith('friday') 
+        console.log(endMethod);
+
+        // includes()
+        const includeMethod = message.includes('is') // includes method search full string if found data then it show otherwise showing false. it can search from anywhere from string.
+        console.log(includeMethod);
+
+    </script>
+</body>
+</html>
